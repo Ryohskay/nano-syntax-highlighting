@@ -1,0 +1,3 @@
+syntax "gitignore" ".gitignore$"
+
+icolor brightblue "^[[:space:]]*#.*$"
