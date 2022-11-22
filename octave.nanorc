@@ -14,7 +14,8 @@ color green "(cell(str)?|char|double|(u)?int(8|16|32|64)|logical|single|struct)"
 
 # embraced
 # TODO: the next line needs to be fixed to work properly in all cases
-color brightred start="\(" end="\)"
+# replaced brightred highlighting of parentheses with lines from scopatz/nanorc's python.nanorc
+color brightred "[(){}]" "\[" "\]"
 color blue start="\[|\{" end="\]|\}"
 
 # strings
