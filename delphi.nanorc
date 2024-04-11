@@ -1,3 +1,5 @@
+# this file was originally copied from serialhex/nano-highlight @GitHub.
+# the original file is licensed under the Unlicense.
 syntax "delphi" "\.pas$"
 color brightcyan "\<(boolean|byte|char|double|float|integer|long|new|short|this|transient|void|real|string)\>"
 color brightyellow "\<(break|case|catch|continue|default|do|else|finally|for|if|then|return|switch|throw|try|while|function)\>"
@@ -10,4 +12,3 @@ color brightblue start="\{" end="\}"
 color green "\<(program)\>"
 color brightmagenta "\<(and|div|mod|or|not)\>"
 
-#this file was originally copied from serialhex/nano-highlight @GitHib.
